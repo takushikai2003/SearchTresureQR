@@ -1,0 +1,56 @@
+<div id="question_header" class="row">
+    <span id="question_page_title">Search Tresure</span>
+    <img id="question_user_icon" src="./images/person.png">
+</div>
+
+
+<div id="question_sidebar" hidden>
+    <div style="text-align: right;">
+        <img id="question_sidebar_close" src="./images/close.svg">
+    </div>
+
+    <span id="question_sidebar_score">
+        スコア
+        <br>
+        0
+    </span>
+
+    <br>
+    <span id="question_sidebar_discovered">
+        発見した宝箱の数
+        <br>
+        0
+    </span>
+
+    <br>
+    <span id="question_sidebar_undiscovered">
+        残りの宝箱の数
+        <br>
+        80
+    </span>
+</div>
+
+
+<div id="question_window" class="container">
+    <div id="question_picture_area" class="row">
+        <img id="question_picture" class="d-block mx-auto">
+        <div id="question_picture_text" class="display-3 text-center">question_picture_text</div>
+    </div>
+
+    <div id="question_area" class="row"></div>
+
+    <div id="question_correctanswer_area" class="row">
+        <div id="question_selected_answer" class="display-1">選択：</div>
+        <div id="question_correct_answer" class="display-1">正解：</div>
+        <img id="question_correctanswer_picture" src="./images/correct.png">
+    </div>
+
+    <div id="question_explanation_area" class="row" hidden>
+        <div style="font-size: 3rem; border: solid 1px black; width: fit-content;">解説</div>
+        <div id="question_explanation"></div>
+    </div>
+
+    <div id="question_gonext_area" class="row">
+        <button id="question_gonext" class="btn">Next</button>
+    </div>
+</div>

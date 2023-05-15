@@ -1,0 +1,19 @@
+#question_header{
+    padding: 20px;
+    position: relative;
+}
+
+#question_page_title{
+    position: absolute;
+    font-size: 60px;
+    width: fit-content;
+}
+
+#question_user_icon{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 90px;
+    right: 0px;
+    /* display: inline; */
+}
