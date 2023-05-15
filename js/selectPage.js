@@ -2,7 +2,7 @@ import Question from "../pages/Question.js";
 import getDataAsString from "../common esm/getDataAsString.js";
 
 async function selectPage(page, qustion_id){
-    const data_path = "../data/question" + qustion_id + ".json";
+    const data_path = location.href + "data/question" + qustion_id + ".json";
 
     // history
     // const url = new URL(window.location.href);
