@@ -3,7 +3,7 @@ import { correct_audio, mistake_audio } from "../common esm/Audios.js";
 
 const insertHTML = await getDataAsString("./pages/Question.html");
 
-const path_to_lesson_data = "./data";
+const path_to_lesson_data = location.href + "/data";
 const deco_nums = ["①","②","③","④"];
 
 const $get = function (querySelector){
