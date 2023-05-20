@@ -8,3 +8,6 @@ const question_id = params.get("qid") || 0;
 if(page == null){
     selectPage("question", question_id);
 }
+else{
+    selectPage(page, question_id);
+}
