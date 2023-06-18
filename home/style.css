@@ -1,0 +1,43 @@
+#title{
+    font-size: 60px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#information{
+    border: solid 1px black;
+    margin-bottom: 20px;
+}
+
+#event_description{
+    width: 70%;
+    font-size: 50px;
+    background-color: cornflowerblue;
+    margin:  0 auto;
+    margin-bottom: 20px;
+}
+
+#qr_radar{
+    width: 70%;
+    font-size: 50px;
+    background-color: cornflowerblue;
+    margin:  0 auto;
+    margin-bottom: 20px;
+}
+
+#lost_child{
+    width: 70%;
+    font-size: 50px;
+    background-color: cornflowerblue;
+    margin:  0 auto;
+    margin-bottom: 20px;
+}
+
+#official_site{
+    width: 70%;
+    font-size: 50px;
+    background-color: cornflowerblue;
+    margin:  0 auto;
+    margin-bottom: 20px;
+}

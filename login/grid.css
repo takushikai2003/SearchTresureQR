@@ -1,0 +1,54 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#grid_container{
+    display: grid;
+    padding-top: 200px;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: auto;
+}
+
+#container{
+    display: grid;
+    grid-column: 2/3;
+}
+
+#title{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#email{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#password{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#remember_me{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#login{
+    width: 100%;
+    font-size: 50px;
+    background-color: cyan;
+    margin-bottom: 20px;
+}
+
+#forgot_password{
+    width: 100%;
+    font-size: 50px;
+    background-color: cyan;
+    margin-bottom: 20px;
+}

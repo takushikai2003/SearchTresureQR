@@ -1,0 +1,65 @@
+#title{
+    font-size: 60px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#email{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#pin_submit{
+    font-size: 50px;
+    width: fit-content;
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+#pin_confirm{
+    font-size: 50px;
+    width: fit-content;
+    background-color: cornflowerblue;
+}
+
+#pin_confirm_input{
+    font-size: 50px;
+    width: 50%;
+}
+
+#password{
+    width: 100%;
+    font-size: 50px;
+}
+
+#password2{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#name{
+    width: 100%;
+    font-size: 50px;
+}
+
+#name_kana{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#tel{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+#register{
+    width: 70%;
+    font-size: 70px;
+    background-color: cornflowerblue;
+    margin:  0 auto;
+}

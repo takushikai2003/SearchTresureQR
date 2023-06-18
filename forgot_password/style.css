@@ -1,0 +1,62 @@
+/* page1 */
+#title{
+    font-size: 60px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#email{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#pin_submit{
+    font-size: 50px;
+    width: fit-content;
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+#pin_confirm{
+    font-size: 50px;
+    width: fit-content;
+    background-color: cornflowerblue;
+}
+
+#pin_confirm_input{
+    font-size: 50px;
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+#next{
+    font-size: 70px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    display: inherit;
+}
+
+
+/* page2 */
+
+#new_password{
+    width: 100%;
+    font-size: 50px;
+}
+
+#new_password2{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#register{
+    width: 70%;
+    font-size: 70px;
+    background-color: cornflowerblue;
+    margin:  0 auto;
+    display: inherit;
+}
