@@ -1,4 +1,4 @@
-function indicate_information(name, name_kana, email, phone, score, completed_spots){
+function indicateInformation(name, name_kana, email, phone, score, completed_spots){
     document.getElementById("information")
     .innerHTML = 
     `
@@ -18,4 +18,4 @@ function indicate_information(name, name_kana, email, phone, score, completed_sp
 
 
 
-indicate_information("甲斐","カイ","t@c.com","000",0,[])
+indicateInformation("甲斐","カイ","t@c.com","000",0,[])

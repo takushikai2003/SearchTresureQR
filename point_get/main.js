@@ -1,3 +1,5 @@
+import { setSidebar } from "./sidebar.js";
+
 const sid = 0;
 const bonus_question = true;
 
@@ -16,3 +18,12 @@ document.querySelector("#bonus_notdo")
 });
 
 
+function indicateScore(now_score, get_score){
+    document.getElementById("myscore_area")
+    .innerHTML = `自分の点数：${now_score}+${get_score}点`;
+    document.getElementById("got_score")
+    .innerHTML = `+${get_score}点`;
+}
+
+indicateScore(10,20);
+setSidebar(0,0,70);

@@ -1,0 +1,18 @@
+#emergency_call{
+    width: 100%;
+    font-size: 50px;
+    background-color: red;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+#home{
+    width: 100%;
+    font-size: 50px;
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+#page2{
+    font-size: 60px;
+}

@@ -1,9 +1,12 @@
 // import getDataAsString from "../common esm/getDataAsString.js";
 import { correct_audio, mistake_audio } from "./Audios.js";
+import { setSidebar } from "./sidebar.js";
 // const url = new URL(window.location.href);
 // const params = url.searchParams;
 // const question_id = params.get("qid") || 0;
 // const spot_id = params.get("sid") || 0;
+
+setSidebar(0,0,80);
 
 const deco_nums = ["①","②","③","④"];
 
