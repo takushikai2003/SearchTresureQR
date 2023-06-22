@@ -8,34 +8,39 @@
 </head>
 <body>
     <div id="header">
-        <span id="page_title">Search Tresure</span>
+        <span id="page_title">Search Treasure</span>
         <img id="user_icon" src="../images/person.png">
     </div>
 
     <div id="sidebar" hidden>
         <div style="text-align: right;">
-            <img id="sidebar_close" src="./images/close.svg">
+            <img id="sidebar_close" src="../images/close.svg">
         </div>
-    
-        <span id="sidebar_score">
-            スコア
+
+        <div id="sidebar_score_area">
+            <span id="sidebar_score">
+                スコア
+                <br>
+                0
+            </span>
+        
             <br>
-            0
-        </span>
-    
-        <br>
-        <span id="sidebar_discovered">
-            発見した宝箱の数
+            <span id="sidebar_discovered">
+                発見した宝箱の数
+                <br>
+                0
+            </span>
+        
             <br>
-            0
-        </span>
-    
-        <br>
-        <span id="sidebar_undiscovered">
-            残りの宝箱の数
-            <br>
-            80
-        </span>
+            <span id="sidebar_undiscovered">
+                残りの宝箱の数
+                <br>
+                80
+            </span>
+        </div>
+
+        <button id="sidebar_home" onclick="location.href = '../home/index.html'">Home</button>
+        <button id="sidebar_lost_child" onclick="location.href = '../lost_child/index.html'">迷子ボタン</button>
     </div>
 
 

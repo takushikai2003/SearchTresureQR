@@ -20,13 +20,13 @@
 .option{
     text-align: left;
     width: 100%;
-    background-color: palegreen;
+    background-color: mediumseagreen;
     margin-bottom: 30px;
     font-size: 60px;
 }
 
 .option:focus{
-    border: solid 5px royalblue;
+    border: solid 8px red;
 }
 
 
@@ -68,5 +68,5 @@
     width: 100%;
     font-size: 50px;
     background-color: cornflowerblue;
-    margin-bottom: 20px;
+    margin-top: 30px;
 }

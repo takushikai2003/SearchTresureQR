@@ -67,7 +67,7 @@ gonext.addEventListener("click",()=>{
     // gonext.hidden = true;
 
     gonext.addEventListener("click",()=>{
-        location.href = "./home";
+        location.href = "../home/index.html";
     },{once: true});
 
     gonext.innerHTML = "homeへ";

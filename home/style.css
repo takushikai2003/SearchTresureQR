@@ -7,36 +7,36 @@
 
 #information{
     border: solid 1px black;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 #event_description{
-    width: 70%;
-    font-size: 50px;
+    width: 80%;
+    font-size: 60px;
     background-color: cornflowerblue;
     margin:  0 auto;
     margin-bottom: 20px;
 }
 
 #qr_radar{
-    width: 70%;
-    font-size: 50px;
+    width: 80%;
+    font-size: 60px;
     background-color: cornflowerblue;
     margin:  0 auto;
     margin-bottom: 20px;
 }
 
 #lost_child{
-    width: 70%;
-    font-size: 50px;
+    width: 80%;
+    font-size: 60px;
     background-color: cornflowerblue;
     margin:  0 auto;
     margin-bottom: 20px;
 }
 
 #official_site{
-    width: 70%;
-    font-size: 50px;
+    width: 80%;
+    font-size: 60px;
     background-color: cornflowerblue;
     margin:  0 auto;
     margin-bottom: 20px;

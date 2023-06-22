@@ -11,6 +11,11 @@
     height: 100px;
 }
 
+#sidebar_score_area{
+    padding-left: 10px;
+    margin-bottom: 50px;
+    border: 1px solid red;
+}
 
 #sidebar_score{
     font-size: 60px;
@@ -21,5 +26,18 @@
 }
 
 #sidebar_undiscovered{
+    font-size: 60px;
+}
+
+#sidebar_home{
+    width: 100%;
+    background-color: green;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+#sidebar_lost_child{
+    width: 100%;
+    background-color: red;
     font-size: 60px;
 }

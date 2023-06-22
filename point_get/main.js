@@ -14,3 +14,5 @@ document.querySelector("#bonus_notdo")
 .addEventListener("click",()=>{
     location.href = "../home/index.html";
 });
+
+
