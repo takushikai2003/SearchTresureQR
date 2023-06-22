@@ -5,7 +5,7 @@ const wh = document.getElementById("container").clientWidth;
 canvas.width = wh;
 canvas.height = wh;
 
-const img = await loadImage("../images/loupe.png");
+const img = await loadImage("../../images/loupe.png");
 
 export function setScoreToCanvas(score){
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);

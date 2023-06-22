@@ -1,5 +1,5 @@
-import { GetGeolocation } from "../lib/Geolocation.js"
-import { SPOT_GEOLOCATIONS } from "../data/spot_geolocations.js";
+import { GetGeolocation } from "../../lib/Geolocation.js"
+import { SPOT_GEOLOCATIONS } from "../../data/spot_geolocations.js";
 import { setScoreToCanvas } from "./canvas.js";
 
 const radius = 30;//[m]

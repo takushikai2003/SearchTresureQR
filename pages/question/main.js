@@ -53,11 +53,11 @@ for(let i=0; i<choices.length; i++){
 gonext.addEventListener("click",()=>{
     if(selected_opt_num == correct_num){
         correct_audio.play();
-        document.querySelector("#correctanswer_picture").src = "../images/correct.png";
+        document.querySelector("#correctanswer_picture").src = "../../images/correct.png";
     }
     else{
         mistake_audio.play();
-        document.querySelector("#correctanswer_picture").src = "../images/mistake.png";
+        document.querySelector("#correctanswer_picture").src = "../../images/mistake.png";
     }
 
 
