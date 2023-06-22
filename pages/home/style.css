@@ -39,5 +39,13 @@
     font-size: 60px;
     background-color: cornflowerblue;
     margin:  0 auto;
+    margin-bottom: 60px;
+}
+
+#logout{
+    width: 80%;
+    font-size: 60px;
+    background-color: rgb(76, 91, 223);
+    margin:  0 auto;
     margin-bottom: 20px;
 }
