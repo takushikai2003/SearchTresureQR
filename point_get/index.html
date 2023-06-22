@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Question</title>
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./sidebar.css">
+    <link rel="stylesheet" href="./header.css">
+</head>
+<body>
+    <div id="header">
+        <span id="page_title">Search Tresure</span>
+        <img id="user_icon" src="../images/person.png">
+    </div>
+
+    <div id="sidebar" hidden>
+        <div style="text-align: right;">
+            <img id="sidebar_close" src="../images/close.svg">
+        </div>
+    
+        <span id="sidebar_score">
+            スコア
+            <br>
+            0
+        </span>
+    
+        <br>
+        <span id="sidebar_discovered">
+            発見した宝箱の数
+            <br>
+            0
+        </span>
+    
+        <br>
+        <span id="sidebar_undiscovered">
+            残りの宝箱の数
+            <br>
+            80
+        </span>
+    </div>
+
+
+    <div id="grid_container">
+        <div id="container">
+            <div id="myscore_area">
+                自分の点数：0+5点
+            </div>
+        
+            <div id="got_score">
+                +5点
+            </div>
+        
+            <div id="bonus_area" hidden>
+                <div id="bonus_text">ボーナス問題があります</div>
+                <button id="bonus_do">やる</button>
+                <button id="bonus_notdo">やらない</button>
+            </div>
+        </div>        
+    </div>
+</body>
+
+<script src="./main.js" type="module"></script>
+<script src="./sidebar.js"></script>

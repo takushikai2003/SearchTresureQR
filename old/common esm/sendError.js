@@ -2,7 +2,7 @@
 function sendError(data){
     const form = document.createElement("form");
     form.id = "form";
-    form.action = "https://docs.google.com/forms/u/0/d/e/1FAIpQLScZOG32EEGn67fx7x8Tw9DUxV0wj40UwjrRNWM-TCx2p62VKA/formResponse";
+    // form.action = "https://docs.google.com/forms/u/0/d/e/1FAIpQLScZOG32EEGn67fx7x8Tw9DUxV0wj40UwjrRNWM-TCx2p62VKA/formResponse";
     form.method="post";
 
     const textarea = document.createElement("textarea");

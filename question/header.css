@@ -1,0 +1,18 @@
+#header{
+    padding: 20px;
+    position: relative;
+}
+
+#page_title{
+    position: absolute;
+    font-size: 60px;
+    width: fit-content;
+}
+
+#user_icon{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+}

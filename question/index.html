@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>Question</title>
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./sidebar.css">
+    <link rel="stylesheet" href="./header.css">
+</head>
+<body>
+    <div id="header">
+        <span id="page_title">Search Tresure</span>
+        <img id="user_icon" src="../images/person.png">
+    </div>
+
+    <div id="sidebar" hidden>
+        <div style="text-align: right;">
+            <img id="sidebar_close" src="./images/close.svg">
+        </div>
+    
+        <span id="sidebar_score">
+            スコア
+            <br>
+            0
+        </span>
+    
+        <br>
+        <span id="sidebar_discovered">
+            発見した宝箱の数
+            <br>
+            0
+        </span>
+    
+        <br>
+        <span id="sidebar_undiscovered">
+            残りの宝箱の数
+            <br>
+            80
+        </span>
+    </div>
+
+
+    <div id="grid_container">
+        <div id="container">
+            <div id="picture_area">
+                <img id="picture">
+                <div id="picture_text">picture_text</div>
+            </div>
+        
+            <div id="question_area"></div>
+        
+            <div id="correctanswer_area">
+                <div id="selected_answer">選択：</div>
+                <div id="correct_answer">正解：</div>
+                <img id="correctanswer_picture">
+            </div>
+        
+            <div id="explanation_area" hidden>
+                <div style="font-size: 3rem; border: solid 1px black; width: fit-content;">解説</div>
+                <div id="explanation"></div>
+            </div>
+        
+            <div id="gonext_area">
+                <button id="gonext">Next</button>
+            </div>
+        
+        </div>
+    </div>
+</body>
+
+<script src="./main.js" type="module"></script>
+<script src="./sidebar.js"></script>

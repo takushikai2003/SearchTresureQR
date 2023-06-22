@@ -11,24 +11,6 @@
     margin-bottom: 20px;
 }
 
-#pin_submit{
-    font-size: 50px;
-    width: fit-content;
-    background-color: cornflowerblue;
-    margin-bottom: 20px;
-}
-
-#pin_confirm{
-    font-size: 50px;
-    width: fit-content;
-    background-color: cornflowerblue;
-}
-
-#pin_confirm_input{
-    font-size: 50px;
-    width: 50%;
-}
-
 #password{
     width: 100%;
     font-size: 50px;

@@ -2,7 +2,7 @@
 function sendLog(data){
     const form = document.createElement("form");
     form.id = "form";
-    form.action = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdv-xV0gyRjK2CA_KwNYZB20Zrf4x8pu3ZsUbi0ZK6qKe9p1Q/formResponse";
+    // form.action = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdv-xV0gyRjK2CA_KwNYZB20Zrf4x8pu3ZsUbi0ZK6qKe9p1Q/formResponse";
     form.method="post";
 
     const input = document.createElement("input");

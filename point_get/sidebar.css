@@ -1,4 +1,4 @@
-#question_sidebar{
+#sidebar{
     padding: 20px;
     position: fixed;
     top: 0px;
@@ -6,20 +6,20 @@
     background-color: azure;
 }
 
-#question_sidebar_close{
+#sidebar_close{
     font-size: 100px;
     height: 100px;
 }
 
 
-#question_sidebar_score{
+#sidebar_score{
     font-size: 60px;
 }
 
-#question_sidebar_discovered{
+#sidebar_discovered{
     font-size: 60px;
 }
 
-#question_sidebar_undiscovered{
+#sidebar_undiscovered{
     font-size: 60px;
 }

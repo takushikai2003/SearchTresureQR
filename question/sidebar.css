@@ -1,0 +1,25 @@
+#sidebar{
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: azure;
+}
+
+#sidebar_close{
+    font-size: 100px;
+    height: 100px;
+}
+
+
+#sidebar_score{
+    font-size: 60px;
+}
+
+#sidebar_discovered{
+    font-size: 60px;
+}
+
+#sidebar_undiscovered{
+    font-size: 60px;
+}

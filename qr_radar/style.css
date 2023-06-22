@@ -1,0 +1,39 @@
+#title{
+    font-size: 60px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#img_container{
+    position: relative;
+}
+
+#loupe{
+    width: 100%;
+}
+
+#loupe_amount{
+    font-size: 200px;
+    position: absolute;
+    left: 22%;
+    top: 22%;
+    margin: 0px;
+}
+
+#scan{
+    width: 70%;
+    font-size: 70px;
+    background-color: cornflowerblue;
+    margin:  0 auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+#home{
+    width: 70%;
+    font-size: 70px;
+    background-color: cornflowerblue;
+    margin:  0 auto;
+    margin-bottom: 20px;
+}

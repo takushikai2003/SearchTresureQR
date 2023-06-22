@@ -1,12 +1,8 @@
-#pointget_window{
-    margin-top: 100px;
-}
-
-#pointget_myscore_area{
+#myscore_area{
     font-size: 5rem;
 }
 
-#pointget_got_score{
+#got_score{
     display: block;
     font-size: 130px;
     /* width: 300px; */
@@ -17,16 +13,25 @@
     bottom: 0%;
 }
 
-#pointget_bonus_do{
-    height: 100px;
-    background-color: lightskyblue;
+#bonus_area{
+    margin-top: 50px;
+}
+
+#bonus_text{
+    text-align: center;
+    font-size: 4rem;
+}
+
+#bonus_do{
+    width: 100%;
+    background-color: cornflowerblue;
     margin-bottom: 30px;
     font-size: 60px;
 }
 
-#pointget_bonus_notdo{
-    height: 100px;
-    background-color: lightskyblue;
+#bonus_notdo{
+    width: 100%;
+    background-color: cornflowerblue;
     margin-bottom: 30px;
     font-size: 60px;
 }
