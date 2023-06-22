@@ -1,22 +1,27 @@
 import { GetGeolocation } from "../lib/Geolocation.js"
 import { SPOT_GEOLOCATIONS } from "../data/spot_geolocations.js";
+import { setScoreToCanvas } from "./canvas.js";
 
 const radius = 30;//[m]
 
 document.getElementById("scan")
-.addEventListener("click", async()=>{
+.addEventListener("click", Scan);
+
+Scan();//はじめに一度スキャン
+
+function Scan(){
     GetGeolocation()
     .then((coords)=>{
         console.log(coords);
         const nearSpots = getNearSpots(coords, radius, SPOT_GEOLOCATIONS);
-        document.getElementById("loupe_amount").innerHTML = nearSpots.length;
+        // document.getElementById("loupe_amount").innerHTML = nearSpots.length;
+        setScoreToCanvas(nearSpots.length);
     })
     .catch((e)=>{
         window.alert(e);
         console.log(e);
     });
-    
-});
+}
 
 
 // 位置情報、半径
